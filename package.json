@@ -1,0 +1,23 @@
+{
+	"name": "express-boilerplate",
+	"version": "0.0.1",
+	"description": "",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"keywords": [],
+	"author": "Egon Schmid",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/core": "^7.23.0",
+		"@babel/node": "^7.22.19",
+		"@babel/preset-env": "^7.22.20",
+		"body-parser": "^1.20.2",
+		"express": "^4.18.2",
+		"node-sass": "^9.0.0",
+		"pug": "^3.0.2"
+	}
+}
